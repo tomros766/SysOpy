@@ -1,0 +1,40 @@
+mała ilość tych samych plików : 
+Czasy wykonania:
+Rzeczywisty:
+0.000002   
+Uzytkownika
+0.000000   
+Systemowy
+0.000000 
+duza ilosc tych samych plikow: 
+Czasy wykonania:
+Rzeczywisty:
+0.000002   
+Uzytkownika
+0.000000   
+Systemowy
+0.000000 
+mala ilosc roznych plikow: 
+Czasy wykonania:
+Rzeczywisty:
+0.000001   
+Uzytkownika
+0.000000   
+Systemowy
+0.000000 
+duza ilosc roznych plikow: 
+Czasy wykonania:
+Rzeczywisty:
+0.000004   
+Uzytkownika
+0.000000   
+Systemowy
+0.000000 
+duza ilosc roznych plikow i usuwanie wybranych blokow: 
+Czasy wykonania:
+Rzeczywisty:
+0.000004   
+Uzytkownika
+0.000000   
+Systemowy
+0.000000 

@@ -1,0 +1,130 @@
+static opt 1: 
+make zad3_static
+make[1]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make static_lib
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+gcc -O0 -c library.c
+ar rcs library.a library.o
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make tests
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+touch results3.txt
+./main create_table 100 compare_pairs a.txt:b.txt a.txt:c.txt a.txt:d.txt a.txt:e.txt a.txt:f.txt b.txt:c.txt b.txt:d.txt b.txt:e.txt b.txt:f.txt c.txt:e.txt d.txt:f.txt d.txt:e.txt remove_block 1 remove_block 3 remove_block 5 compare_pairs b.txt:c.txt remove_block 2
+Czasy wykonania:
+Rzeczywisty:
+0.000004   
+Uzytkownika
+0.000000   
+Systemowy
+0.000000 
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make[1]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+static opt 2: 
+Op=O2
+make zad3_static
+make[1]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make static_lib
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+gcc -O0 -c library.c
+ar rcs library.a library.o
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make tests
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+touch results3.txt
+./main create_table 100 compare_pairs a.txt:b.txt a.txt:c.txt a.txt:d.txt a.txt:e.txt a.txt:f.txt b.txt:c.txt b.txt:d.txt b.txt:e.txt b.txt:f.txt c.txt:e.txt d.txt:f.txt d.txt:e.txt remove_block 1 remove_block 3 remove_block 5 compare_pairs b.txt:c.txt remove_block 2
+Czasy wykonania:
+Rzeczywisty:
+0.000004   
+Uzytkownika
+0.000000   
+Systemowy
+0.000000 
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make[1]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+static opt 3: 
+Op=Os
+make zad3_static
+make[1]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make static_lib
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+gcc -O0 -c library.c
+ar rcs library.a library.o
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make tests
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+touch results3.txt
+./main create_table 100 compare_pairs a.txt:b.txt a.txt:c.txt a.txt:d.txt a.txt:e.txt a.txt:f.txt b.txt:c.txt b.txt:d.txt b.txt:e.txt b.txt:f.txt c.txt:e.txt d.txt:f.txt d.txt:e.txt remove_block 1 remove_block 3 remove_block 5 compare_pairs b.txt:c.txt remove_block 2
+Czasy wykonania:
+Rzeczywisty:
+0.000005   
+Uzytkownika
+0.000000   
+Systemowy
+0.000000 
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make[1]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+shared opt 1: 
+make zad3_shared
+make[1]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make shared_lib
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+gcc -O0 -c -fPIC library.c
+gcc -O0 -shared -fPIC -o library.so library.o
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make tests
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+touch results3.txt
+./main create_table 100 compare_pairs a.txt:b.txt a.txt:c.txt a.txt:d.txt a.txt:e.txt a.txt:f.txt b.txt:c.txt b.txt:d.txt b.txt:e.txt b.txt:f.txt c.txt:e.txt d.txt:f.txt d.txt:e.txt remove_block 1 remove_block 3 remove_block 5 compare_pairs b.txt:c.txt remove_block 2
+Czasy wykonania:
+Rzeczywisty:
+0.000005   
+Uzytkownika
+0.000000   
+Systemowy
+0.000000 
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make[1]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+shared opt 2: 
+Op=O2
+make zad3_shared
+make[1]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make shared_lib
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+gcc -O0 -c -fPIC library.c
+gcc -O0 -shared -fPIC -o library.so library.o
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make tests
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+touch results3.txt
+./main create_table 100 compare_pairs a.txt:b.txt a.txt:c.txt a.txt:d.txt a.txt:e.txt a.txt:f.txt b.txt:c.txt b.txt:d.txt b.txt:e.txt b.txt:f.txt c.txt:e.txt d.txt:f.txt d.txt:e.txt remove_block 1 remove_block 3 remove_block 5 compare_pairs b.txt:c.txt remove_block 2
+Czasy wykonania:
+Rzeczywisty:
+0.000005   
+Uzytkownika
+0.000000   
+Systemowy
+0.000000 
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make[1]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+shared opt 3: 
+Op=Os
+make zad3_shared
+make[1]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make shared_lib
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+gcc -O0 -c -fPIC library.c
+gcc -O0 -shared -fPIC -o library.so library.o
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make tests
+make[2]: Wejście do katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+touch results3.txt
+./main create_table 100 compare_pairs a.txt:b.txt a.txt:c.txt a.txt:d.txt a.txt:e.txt a.txt:f.txt b.txt:c.txt b.txt:d.txt b.txt:e.txt b.txt:f.txt c.txt:e.txt d.txt:f.txt d.txt:e.txt remove_block 1 remove_block 3 remove_block 5 compare_pairs b.txt:c.txt remove_block 2
+Czasy wykonania:
+Rzeczywisty:
+0.000005   
+Uzytkownika
+0.000000   
+Systemowy
+0.000000 
+make[2]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
+make[1]: Opuszczenie katalogu '/home/tomasz/CLionProjects/sysopy-lab1'
